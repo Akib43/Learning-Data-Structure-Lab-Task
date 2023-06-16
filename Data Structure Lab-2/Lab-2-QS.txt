@@ -1,0 +1,61 @@
+1.Initialize TWO integer arrays of different sizes. Merge the input arrays and create a new array. Then print the new array in reverse order.
+
+For example,
+Array_1 = {10,20,30,40,50}
+Array_2 = {1,2,3,4,5,6,7,8}
+
+Output: 8 7 6 5 4 3 2 1 50 40 30 20 10
+
+
+2.
+Initialize TWO integer arrays A and B of different sizes. Make a new array with the common elements between A and B. Print the new array element(s). If there is no common element, output “No common element!”.
+
+For example,
+Scenario 1:
+Array_1 = {1,4,6,3,6,9}
+Array_2 = {5,3,7,1,2,6}
+
+Output: 1 6 3
+
+Scenario 2:
+Array_1 = {1,4,6,3,6,9}
+Array_2 = {5,8,7,12,21,63}
+
+Output: No common element!
+
+
+3.Initialize an array. Size should be more than FIVE. Write you program to change the array in such a way so that there cannot be any duplicate element in the array anymore. Print the changed array. If the initialized array already had no duplicate elements from the beginning, output a message saying “Array already unique!”;
+
+For example,
+Scenario 1:
+Array_1 = {1,4,6,3,6,9,1}
+
+Output: 1 4 6 3 9
+
+Scenario 2:
+Array_1 = {1,4,5,3,6,9}
+
+Output: Array already unique!
+
+
+4.Initialize an integer array A of size 10. Take an integer as input and print how many times that integer occurs in A.
+
+For example,
+Array_1 = {8,4,6,1,6,9,6,1,9,8}
+
+Output:
+Input a number to search: 6
+The number occurs 3 times in the array
+
+
+5.Initialize an integer array of size 10. Print the number of time each element occurs in the array.
+
+For example,
+Array_1 = {8,4,6,1,6,9,6,1,9,8}
+
+Output:
+8 occurs = 2 times
+4 occurs = 1 time
+6 occurs = 3 times
+1 occurs = 2 times
+9 occurs = 2 times
