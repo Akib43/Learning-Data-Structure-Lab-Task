@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 
     int n;
-    cout<<"Number of elements : ";
+    cout<<"Number of elements: ";
         cin>>n;
     int arr[n];
 
