@@ -14,7 +14,7 @@ int main(){
     }
 
     int lrg2,lrg3,lrg1;
-    lrg1=lrg2=lrg3=0;
+    lrg1=lrg2=0;
 
     for(int j=0;j<n;j++){
         if (lrg1 < arr[j]){
