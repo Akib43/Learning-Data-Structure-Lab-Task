@@ -8,7 +8,7 @@ int main(){
     cout<<"Number of elements : ";
         cin>>n;
     int arr[n];
-    cout<<"Elements : " ;
+    cout<<"Elements :  " ;
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
