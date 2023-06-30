@@ -2,7 +2,6 @@
 using namespace std;
 
 int main(){
-
     int n;
     cout<<"Numbner of elements :  ";
     cin>>n;
