@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+
 int main() {
   int n = 9;
   int arr[n] = {0, 1, 2, 2, 1, 1, 0, 0, 1};
