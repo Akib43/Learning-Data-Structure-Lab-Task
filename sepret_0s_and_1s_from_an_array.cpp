@@ -5,7 +5,6 @@
 using namespace std;
 
 int main(){
-
     int n=10;
     int nums[n]= {0, 1, 0, 0 , 1, 1, 1, 0, 1, 0},arr[n];
     int k=0,m=n-1;
