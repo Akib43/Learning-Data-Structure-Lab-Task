@@ -17,38 +17,38 @@
 
     static void bubbleSortByPrice(Product* products, int n) {
         for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (products[j].price > products[j + 1].price) {
-            Product temp = products[j];
-            products[j] = products[j + 1];
-            products[j + 1] = temp;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (products[j].price > products[j + 1].price) {
+                Product temp = products[j];
+                products[j] = products[j + 1];
+                products[j + 1] = temp;
+                }
             }
-        }
         }
     }
 
     static void bubbleSortByName(Product* products, int n) {
         for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (products[j].name > products[j + 1].name) {
-            Product temp = products[j];
-            products[j] = products[j + 1];
-            products[j + 1] = temp;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (products[j].name > products[j + 1].name) {
+                Product temp = products[j];
+                products[j] = products[j + 1];
+                products[j + 1] = temp;
+                }
             }
-        }
         }
     }
 
     static void selectionSortByPrice(Product* products, int n) {
         for (int i = 0; i < n; i++) {
         int j = i;
-        for (int j = i + 1; j < n; j++) {
-            if (products[j].price < products[j].price) {
-            Product temp = products[i];
-            products[i] = products[j];
-            products[j] = temp;
+            for (int j = i + 1; j < n; j++) {
+                if (products[j].price < products[j].price) {
+                Product temp = products[i];
+                products[i] = products[j];
+                products[j] = temp;
+                }
             }
-        }
         
         }
     }
@@ -56,13 +56,13 @@
     static void selectionSortByName(Product* products, int n) {
         for (int i = 0; i < n; i++) {
         
-        for (int j = i + 1; j < n; j++) {
-            if (products[j].name < products[j].name) {
-                Product temp = products[i];
-                products[i] = products[j];
-                products[j] = temp;
+            for (int j = i + 1; j < n; j++) {
+                if (products[j].name < products[j].name) {
+                    Product temp = products[i];
+                    products[i] = products[j];
+                    products[j] = temp;
+                }
             }
-        }
         
         }
     }
@@ -87,13 +87,11 @@
         cout << product.name << " " << product.price << endl;
     }
     cout<< endl;
-    // Selection sort by price
     Product::selectionSortByPrice(products, sizeof(products) / sizeof(products[0]));
     for (Product product : products) {
         cout << product.name << " " << product.price << endl;
     }
     cout<< endl;
-    // Selection sort by name
     Product::selectionSortByName(products, sizeof(products) / sizeof(products[0]));
     for (Product product : products) {
         cout << product.name << " " << product.price << endl;
