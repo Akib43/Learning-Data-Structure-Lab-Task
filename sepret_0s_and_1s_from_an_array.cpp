@@ -1,6 +1,4 @@
 // Write a C++ program to separate 0s and 1s from a given array of values 0 and 1 //
-
-
 #include<iostream>
 using namespace std;
 
