@@ -57,8 +57,8 @@ void preorder(Root *head){
 
 void postorder(Root *head){
     if(head == NULL){return;}
-    preorder(head->left);
-    preorder(head->right);
+    postorder(head->left);
+    postorder(head->right);
     cout << head->data << " ";
 }
 
