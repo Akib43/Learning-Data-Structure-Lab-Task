@@ -7,10 +7,9 @@ struct Node {
 };
 
 class LinkedList {
-private:
+public:
     Node* head=nullptr;
 
-public:
 
     void insert(int value) {
         Node* newNode = new Node;
